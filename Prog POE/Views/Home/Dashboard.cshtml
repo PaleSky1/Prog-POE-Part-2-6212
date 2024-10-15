@@ -1,8 +1,148 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Dashboard Page";
 }
+<style>
+    .container {
+        margin-top: 30px;
+    }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .dashboard-card {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+        transition: transform 0.2s ease;
+        flex-grow: 1; 
+        min-height: 300px; 
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+        position: relative;
+        overflow: hidden; 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+    }
+
+        .dashboard-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1; 
+            transition: opacity 0.3s ease;
+        }
+
+        .dashboard-card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover; 
+            opacity: 0.5; 
+            transition: opacity 0.3s ease; 
+            border-radius: 10px; 
+            display: block;
+            margin: 0 auto;
+        }
+
+
+        .dashboard-card:hover img {
+            opacity: 1;
+        }
+
+        .dashboard-card p {
+            opacity: 0;
+            visibility: hidden; 
+            transition: opacity 0.3s ease, visibility 0.3s ease; 
+        }
+
+        .dashboard-card:hover p {
+            opacity: 1;
+            visibility: visible; 
+        }
+
+        .dashboard-card:hover {
+            transform: scale(1.08); 
+            background-color: rgba(255, 255, 255, 0.3); 
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); 
+            border: 2px solid rgba(255, 255, 255, 0.5); 
+            color: #000;
+        }
+
+    .custom-nav-link {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: border-bottom 0.3s ease;
+        position: relative;
+    }
+
+        .custom-nav-link::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: white;
+            transition: width 0.3s ease;
+            position: absolute;
+            left: 50%;
+            bottom: -5px;
+            transform: translateX(-50%);
+        }
+
+    .dashboard-card:hover::before {
+        opacity: 0.3;
+    }
+        .custom-nav-link:hover::after {
+            width: 100%;
+        }
+</style>
+
+<div class="container">
+    <main role="main" class="pb-3">
+        <h1 class="text-white text-center">Dashboard</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="dashboard-card">
+                    <img src="~/Images/pexels-anete-lusina-4792285.jpg" alt="Card Image">
+                    <h3>Submit a New Claim</h3>
+                    <p>Click here to submit a new claim.</p>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="dashboard-card">
+                    <img src="~/Images/pexels-vlad-deep-29415806-10341357.jpg" alt="Card Image">
+                    <h3>View My Claims</h3>
+                    <p>Check the status of your existing claims.</p>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="dashboard-card">
+                    <img src="~/Images/pexels-pixabay-357514.jpg" alt="Card Image">
+                    <h3>Upload Supporting Documents</h3>
+                    <p>Provide additional information for your claims.</p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="dashboard-card">
+                    <img src="~/Images/pexels-eniko-toth-473630-1179476.jpg" alt="Card Image">
+                    <h3>Recent Activity</h3>
+                    <p>See your recent activities related to claims.</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </div>

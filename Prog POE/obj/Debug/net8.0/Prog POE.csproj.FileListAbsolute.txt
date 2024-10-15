@@ -28,3 +28,64 @@ C:\Users\Logan\source\repos\Prog POE\Prog POE\obj\Debug\net8.0\refint\Prog POE.d
 C:\Users\Logan\source\repos\Prog POE\Prog POE\obj\Debug\net8.0\Prog POE.pdb
 C:\Users\Logan\source\repos\Prog POE\Prog POE\obj\Debug\net8.0\Prog POE.genruntimeconfig.cache
 C:\Users\Logan\source\repos\Prog POE\Prog POE\obj\Debug\net8.0\ref\Prog POE.dll
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\bin\Debug\net8.0\appsettings.json
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\bin\Debug\net8.0\Prog POE.staticwebassets.runtime.json
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\bin\Debug\net8.0\Prog POE.exe
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\bin\Debug\net8.0\Prog POE.deps.json
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\bin\Debug\net8.0\Prog POE.runtimeconfig.json
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\bin\Debug\net8.0\Prog POE.dll
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\bin\Debug\net8.0\Prog POE.pdb
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\Prog POE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\Prog POE.AssemblyInfoInputs.cache
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\Prog POE.AssemblyInfo.cs
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\Prog POE.csproj.CoreCompileInputs.cache
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\Prog POE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\Prog POE.RazorAssemblyInfo.cache
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\Prog POE.RazorAssemblyInfo.cs
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\Prog POE.sourcelink.json
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\staticwebassets\msbuild.Prog POE.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\staticwebassets\msbuild.build.Prog POE.props
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Prog POE.props
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Prog POE.props
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\scopedcss\bundle\Prog POE.styles.css
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\scopedcss\projectbundle\Prog POE.bundle.scp.css
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\Prog POE.dll
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\refint\Prog POE.dll
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\Prog POE.pdb
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\Prog POE.genruntimeconfig.cache
+C:\Users\Logan\Source\Repos\vcnmb-prog6212-2024-poe-PaleSky1\Prog POE\obj\Debug\net8.0\ref\Prog POE.dll
+C:\Users\Logan\source\repos\_-_\Prog POE\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Logan\source\repos\_-_\Prog POE\bin\Debug\net8.0\appsettings.json
+C:\Users\Logan\source\repos\_-_\Prog POE\bin\Debug\net8.0\Prog POE.staticwebassets.runtime.json
+C:\Users\Logan\source\repos\_-_\Prog POE\bin\Debug\net8.0\Prog POE.exe
+C:\Users\Logan\source\repos\_-_\Prog POE\bin\Debug\net8.0\Prog POE.deps.json
+C:\Users\Logan\source\repos\_-_\Prog POE\bin\Debug\net8.0\Prog POE.runtimeconfig.json
+C:\Users\Logan\source\repos\_-_\Prog POE\bin\Debug\net8.0\Prog POE.dll
+C:\Users\Logan\source\repos\_-_\Prog POE\bin\Debug\net8.0\Prog POE.pdb
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\Prog POE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\Prog POE.AssemblyInfoInputs.cache
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\Prog POE.AssemblyInfo.cs
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\Prog POE.csproj.CoreCompileInputs.cache
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\Prog POE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\Prog POE.RazorAssemblyInfo.cache
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\Prog POE.RazorAssemblyInfo.cs
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\staticwebassets\msbuild.Prog POE.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\staticwebassets\msbuild.build.Prog POE.props
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Prog POE.props
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Prog POE.props
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\scopedcss\bundle\Prog POE.styles.css
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\scopedcss\projectbundle\Prog POE.bundle.scp.css
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\Prog POE.dll
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\refint\Prog POE.dll
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\Prog POE.pdb
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\Prog POE.genruntimeconfig.cache
+C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\ref\Prog POE.dll

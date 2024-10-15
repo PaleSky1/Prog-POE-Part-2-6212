@@ -1,5 +1,174 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Submit Claims";
 }
+
+<style>
+    .container {
+        margin-top: 30px;
+    }
+
+    .submit-card {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+
+        .submit-card.active {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .submit-card h3, .submit-card p {
+            color: #fff;
+        }
+
+    .file-list-container {
+        max-height: 100px;
+        overflow-y: auto;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+        .file-list-container ul {
+            list-style-type: none;
+            padding-left: 0;
+            color: #fff;
+        }
+
+            .file-list-container ul li {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 5px;
+            }
+
+                .file-list-container ul li button {
+                    background-color: transparent;
+                    border: none;
+                    color: #fff;
+                    cursor: pointer;
+                }
+
+                    .file-list-container ul li button:hover {
+                        color: red;
+                    }
+
+    .file-input-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    input[type="file"]::file-selector-button {
+        background-color: #007bff;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="file"] {
+        color: transparent;
+    }
+
+    .submit-card .file-input-container {
+        width: 100%;
+    }
+</style>
+
+<div class="container">
+    <main role="main" class="pb-3">
+        <h1 class="text-white text-center">Submit a New Claim</h1>
+
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="submit-card" onclick="toggleCard(this)">
+                    <h3>Lecture Info</h3>
+                    <p>Provide details about the lecture related to your claim.</p>
+                    <input type="text" id="lecture-name" class="form-control" placeholder="Lecture Name" />
+                    <br />
+                    <input type="text" id="lecture-date" class="form-control" placeholder="Lecture Date" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="submit-card" onclick="toggleCard(this)">
+                    <h3>Claim Info</h3>
+                    <p>Provide information about the claim you are submitting.</p>
+
+                    <textarea id="claim-description" class="form-control" rows="3" placeholder="Describe the claim"></textarea>
+                    <br />
+                    <input type="text" id="claim-reference" class="form-control" placeholder="Claim Reference" />
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="submit-card" onclick="toggleCard(this)">
+                    <h3>Upload Proof</h3>
+                    <p>Upload relevant documents to support your claim.</p>
+
+                    <div class="file-input-container">
+                        <input type="file" class="form-control-file" multiple onchange="handleFileUpload(this)" />
+                    </div>
+
+                    <div class="file-list-container">
+                        <ul id="file-list">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script>
+    let uploadedFiles = [];
+
+    function handleFileUpload(input) {
+        const fileList = document.getElementById('file-list');
+
+        for (let i = 0; i < input.files.length; i++) {
+            uploadedFiles.push(input.files[i]);
+        }
+
+        updateFileListDisplay();
+    }
+
+    function updateFileListDisplay() {
+        const fileList = document.getElementById('file-list');
+        fileList.innerHTML = '';
+
+        uploadedFiles.forEach((file, index) => {
+            const li = document.createElement('li');
+            li.innerHTML = `${file.name} <button onclick="removeFile(${index})">Remove</button>`;
+            fileList.appendChild(li);
+        });
+    }
+
+    function removeFile(index) {
+        uploadedFiles.splice(index, 1); 
+        updateFileListDisplay();
+    }
+
+    function toggleCard(card) {
+        const cards = document.querySelectorAll('.submit-card');
+        cards.forEach(c => c.classList.remove('active'));
+
+        card.classList.add('active');
+    }
+</script>
