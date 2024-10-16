@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Logan\\source\\repos\\_-_\\Prog POE\\Prog POE.csproj": {}
+    "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Prog POE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Logan\\source\\repos\\_-_\\Prog POE\\Prog POE.csproj": {
+    "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Prog POE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\_-_\\Prog POE\\Prog POE.csproj",
+        "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Prog POE.csproj",
         "projectName": "Prog POE",
-        "projectPath": "C:\\Users\\Logan\\source\\repos\\_-_\\Prog POE\\Prog POE.csproj",
+        "projectPath": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Prog POE.csproj",
         "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Logan\\source\\repos\\_-_\\Prog POE\\obj\\",
+        "outputPath": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Logan\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -17,6 +17,9 @@
         margin-bottom: 20px;
         cursor: pointer;
         transition: transform 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
         .submit-card.active {
@@ -25,6 +28,15 @@
             border: 2px solid rgba(255, 255, 255, 0.5);
         }
 
+        .submit-card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            transition: opacity 0.3s ease;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+        }
         .submit-card h3, .submit-card p {
             color: #fff;
         }
@@ -86,30 +98,68 @@
     .submit-card .file-input-container {
         width: 100%;
     }
+
+    .row.equal-height .col-md-4, .col-md-3 {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .submit-card {
+        flex: 1;
+    }
+
+    .submit-button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: background-color 0.2s ease;
+        text-align: center;
+    }
+
+        .submit-button:hover {
+            background-color: #0056b3;
+        }
 </style>
 
 <div class="container">
     <main role="main" class="pb-3">
         <h1 class="text-white text-center">Submit a New Claim</h1>
 
-        <div class="row justify-content-center">
-            <div class="col-md-10">
+        <div class="row equal-height justify-content-center">
+            <div class="col-md-6">
                 <div class="submit-card" onclick="toggleCard(this)">
                     <h3>Lecture Info</h3>
-                    <p>Provide details about the lecture related to your claim.</p>
-                    <input type="text" id="lecture-name" class="form-control" placeholder="Lecture Name" />
+                    <p><strong>Lecture Name:</strong> <span id="lecture-name">Lecture Name from Token</span></p>
+                    <p><strong>Lecture ID:</strong> <span id="lecture-id">Lecture ID from Token</span></p>
+                    <img src="~/Images/pexels-anete-lusina-4792285.jpg" alt="Card Image">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="submit-card" onclick="toggleCard(this)">
+                    <h3>Work Details</h3>
+                    <p>Provide hours worked and hourly rate (R).</p>
+                    <input type="number" id="hours-worked" class="form-control" placeholder="Hours Worked" min="0" oninput="validateHours()" />
                     <br />
-                    <input type="text" id="lecture-date" class="form-control" placeholder="Lecture Date" />
+                    <div class="input-group">
+                        <span class="input-group-text">R</span>
+                        <input type="number" id="hourly-rate" class="form-control" placeholder="Hourly Rate" min="0" />
+                    </div>
+                    <br />
+                    <textarea id="additional-notes" class="form-control" rows="3" placeholder="Additional Notes"></textarea>
                 </div>
             </div>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row equal-height justify-content-center">
             <div class="col-md-6">
                 <div class="submit-card" onclick="toggleCard(this)">
                     <h3>Claim Info</h3>
                     <p>Provide information about the claim you are submitting.</p>
-
                     <textarea id="claim-description" class="form-control" rows="3" placeholder="Describe the claim"></textarea>
                     <br />
                     <input type="text" id="claim-reference" class="form-control" placeholder="Claim Reference" />
@@ -120,18 +170,18 @@
                 <div class="submit-card" onclick="toggleCard(this)">
                     <h3>Upload Proof</h3>
                     <p>Upload relevant documents to support your claim.</p>
-
                     <div class="file-input-container">
                         <input type="file" class="form-control-file" multiple onchange="handleFileUpload(this)" />
                     </div>
-
                     <div class="file-list-container">
-                        <ul id="file-list">
-
-                        </ul>
+                        <ul id="file-list"></ul>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="text-center">
+            <button class="submit-button">Submit Claim</button>
         </div>
     </main>
 </div>
@@ -141,18 +191,15 @@
 
     function handleFileUpload(input) {
         const fileList = document.getElementById('file-list');
-
         for (let i = 0; i < input.files.length; i++) {
             uploadedFiles.push(input.files[i]);
         }
-
         updateFileListDisplay();
     }
 
     function updateFileListDisplay() {
         const fileList = document.getElementById('file-list');
         fileList.innerHTML = '';
-
         uploadedFiles.forEach((file, index) => {
             const li = document.createElement('li');
             li.innerHTML = `${file.name} <button onclick="removeFile(${index})">Remove</button>`;
@@ -161,14 +208,20 @@
     }
 
     function removeFile(index) {
-        uploadedFiles.splice(index, 1); 
+        uploadedFiles.splice(index, 1);
         updateFileListDisplay();
     }
 
     function toggleCard(card) {
         const cards = document.querySelectorAll('.submit-card');
         cards.forEach(c => c.classList.remove('active'));
-
         card.classList.add('active');
+    }
+
+    function validateHours() {
+        const hoursInput = document.getElementById('hours-worked');
+        if (hoursInput.value < 0) {
+            hoursInput.value = 0;
+        }
     }
 </script>
