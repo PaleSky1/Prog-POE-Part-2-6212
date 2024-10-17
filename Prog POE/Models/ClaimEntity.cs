@@ -1,10 +1,10 @@
-using Azure;
+﻿using Azure;
 using Azure.Data.Tables;
 using System.ComponentModel.DataAnnotations;
 
 namespace Prog_POE.Models
 {
-    public class Claims: ITableEntity
+    public class Claims : ITableEntity
     {
         [Key]
         public string? PartitionKey { get; set; }
@@ -21,5 +21,3 @@ namespace Prog_POE.Models
 
     }
 }
-
-
