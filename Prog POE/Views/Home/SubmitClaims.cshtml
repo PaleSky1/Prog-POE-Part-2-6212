@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Prog_POE.Models.ClaimEntity
+@{
     ViewData["Title"] = "Submit Claims";
 }
 
@@ -129,62 +130,44 @@
     <main role="main" class="pb-3">
         <h1 class="text-white text-center">Submit a New Claim</h1>
 
-        <div class="row equal-height justify-content-center">
-            <div class="col-md-6">
-                <div class="submit-card" onclick="toggleCard(this)">
-                    <h3>Lecture Info</h3>
-                    <p><strong>Lecture Name:</strong> <span id="lecture-name">Lecture Name from Token</span></p>
-                    <p><strong>Lecture ID:</strong> <span id="lecture-id">Lecture ID from Token</span></p>
-                    <img src="~/Images/pexels-anete-lusina-4792285.jpg" alt="Card Image">
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="submit-card" onclick="toggleCard(this)">
-                    <h3>Work Details</h3>
-                    <p>Provide hours worked and hourly rate (R).</p>
-                    <input type="number" id="hours-worked" class="form-control" placeholder="Hours Worked" min="0" oninput="validateHours()" />
-                    <br />
-                    <div class="input-group">
-                        <span class="input-group-text">R</span>
-                        <input type="number" id="hourly-rate" class="form-control" placeholder="Hourly Rate" min="0" />
+        <form asp-action="SubmitClaim" method="post" enctype="multipart/form-data">
+            <div class="row equal-height justify-content-center">
+                <div class="col-md-6">
+                    <div class="submit-card">
+                        <h3>Lecture Info</h3>
+                        <p><strong>Lecture Name:</strong> <input asp-for="LectureName" class="form-control" /></p>
+                        <p><strong>Lecture ID:</strong> <input asp-for="LectureID" class="form-control" /></p>
                     </div>
-                    <br />
-                    <textarea id="additional-notes" class="form-control" rows="3" placeholder="Additional Notes"></textarea>
                 </div>
-            </div>
-        </div>
 
-        <div class="row equal-height justify-content-center">
-            <div class="col-md-6">
-                <div class="submit-card" onclick="toggleCard(this)">
-                    <h3>Claim Info</h3>
-                    <p>Provide information about the claim you are submitting.</p>
-                    <textarea id="claim-description" class="form-control" rows="3" placeholder="Describe the claim"></textarea>
-                    <br />
-                    <input type="text" id="claim-reference" class="form-control" placeholder="Claim Reference" />
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="submit-card" onclick="toggleCard(this)">
-                    <h3>Upload Proof</h3>
-                    <p>Upload relevant documents to support your claim.</p>
-                    <div class="file-input-container">
-                        <input type="file" class="form-control-file" multiple onchange="handleFileUpload(this)" />
-                    </div>
-                    <div class="file-list-container">
-                        <ul id="file-list"></ul>
+                <div class="col-md-4">
+                    <div class="submit-card">
+                        <h3>Work Details</h3>
+                        <input asp-for="HoursWorked" class="form-control" placeholder="Hours Worked" required />
+                        <br />
+                        <input asp-for="HourlyRate" class="form-control" placeholder="Hourly Rate" required />
+                        <br />
+                        <textarea asp-for="AdditionalNotes" class="form-control" rows="3" placeholder="Additional Notes"></textarea>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="text-center">
-            <button class="submit-button">Submit Claim</button>
-        </div>
+            <div class="row equal-height justify-content-center">
+                <div class="col-md-6">
+                    <div class="submit-card">
+                        <h3>Claim Info</h3>
+                        <textarea asp-for="ClaimDescription" class="form-control" rows="3" placeholder="Describe the claim"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="submit-button">Submit Claim</button>
+            </div>
+        </form>
     </main>
 </div>
+
 
 <script>
     let uploadedFiles = [];
@@ -224,4 +207,26 @@
             hoursInput.value = 0;
         }
     }
+    function submitForm() {
+        const form = document.getElementById('submit-claim-form');
+        const formData = new FormData(form);
+
+        const files = document.getElementById('files').files;
+        for (let i = 0; i < files.length; i++) {
+            formData.append('files', files[i]);
+        }
+
+        fetch('/Claims/SubmitClaim', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                window.location.href = '/Claims/Success';
+            })
+            .catch(error => {
+                console.error('Error submitting form:', error);
+            });
+    }
+
 </script>
