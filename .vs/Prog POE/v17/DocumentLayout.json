@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|c:\\users\\logan\\source\\repos\\prog-poe-part 2-6212\\prog poe\\views\\home\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|solutionrelative:prog poe\\views\\home\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|c:\\users\\logan\\source\\repos\\prog-poe-part 2-6212\\prog poe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|solutionrelative:prog poe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|c:\\users\\logan\\source\\repos\\prog-poe-part 2-6212\\prog poe\\models\\claims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|solutionrelative:prog poe\\models\\claims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|c:\\users\\logan\\source\\repos\\prog-poe-part 2-6212\\prog poe\\services\\tablestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,32 +23,8 @@
       "RelativeMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|solutionrelative:prog poe\\views\\home\\submitclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|c:\\users\\logan\\source\\repos\\prog-poe-part 2-6212\\prog poe\\models\\claimentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|solutionrelative:prog poe\\models\\claimentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|c:\\users\\logan\\source\\repos\\prog-poe-part 2-6212\\prog poe\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|solutionrelative:prog poe\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|c:\\users\\logan\\source\\repos\\prog-poe-part 2-6212\\prog poe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|solutionrelative:prog poe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|c:\\users\\logan\\source\\repos\\prog-poe-part 2-6212\\prog poe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|solutionrelative:prog poe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|c:\\users\\logan\\source\\repos\\prog-poe-part 2-6212\\prog poe\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|solutionrelative:prog poe\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|c:\\users\\logan\\source\\repos\\prog-poe-part 2-6212\\prog poe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|solutionrelative:prog poe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|c:\\users\\logan\\source\\repos\\prog-poe-part 2-6212\\prog poe\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|solutionrelative:prog poe\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97EC833C-5E65-4F8F-8F4F-ACA7F1A14C7B}|Prog POE\\Prog POE.csproj|c:\\users\\logan\\source\\repos\\prog-poe-part 2-6212\\prog poe\\views\\home\\notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -66,31 +42,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeDocumentMoniker": "Prog POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeToolTip": "Prog POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ViewState": "AgIAADcRAAAAAAAAAIAywKgPAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-11T11:19:32.451Z",
-              "IsPinned": true,
+              "DocumentIndex": 1,
+              "Title": "Claims.cs",
+              "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Models\\Claims.cs",
+              "RelativeDocumentMoniker": "Prog POE\\Models\\Claims.cs",
+              "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Models\\Claims.cs",
+              "RelativeToolTip": "Prog POE\\Models\\Claims.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T23:12:51.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\appsettings.json",
               "RelativeDocumentMoniker": "Prog POE\\appsettings.json",
               "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\appsettings.json*",
               "RelativeToolTip": "Prog POE\\appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAADYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-17T11:37:07.501Z",
               "EditorCaption": ""
@@ -101,48 +76,22 @@
               "Title": "TableStorageService.cs",
               "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Services\\TableStorageService.cs",
               "RelativeDocumentMoniker": "Prog POE\\Services\\TableStorageService.cs",
-              "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Services\\TableStorageService.cs*",
-              "RelativeToolTip": "Prog POE\\Services\\TableStorageService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Services\\TableStorageService.cs",
+              "RelativeToolTip": "Prog POE\\Services\\TableStorageService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T14:08:05.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Success.cshtml",
-              "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Views\\Home\\Success.cshtml",
-              "RelativeDocumentMoniker": "Prog POE\\Views\\Home\\Success.cshtml",
-              "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Views\\Home\\Success.cshtml",
-              "RelativeToolTip": "Prog POE\\Views\\Home\\Success.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T11:40:01.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ClaimEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Models\\ClaimEntity.cs",
-              "RelativeDocumentMoniker": "Prog POE\\Models\\ClaimEntity.cs",
-              "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Models\\ClaimEntity.cs",
-              "RelativeToolTip": "Prog POE\\Models\\ClaimEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T11:28:39.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "ClaimController.cs",
               "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Controllers\\ClaimController.cs",
               "RelativeDocumentMoniker": "Prog POE\\Controllers\\ClaimController.cs",
               "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Controllers\\ClaimController.cs",
               "RelativeToolTip": "Prog POE\\Controllers\\ClaimController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T11:24:05.343Z",
               "EditorCaption": ""
@@ -155,61 +104,9 @@
               "RelativeDocumentMoniker": "Prog POE\\Views\\Home\\SubmitClaims.cshtml",
               "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Views\\Home\\SubmitClaims.cshtml",
               "RelativeToolTip": "Prog POE\\Views\\Home\\SubmitClaims.cshtml",
-              "ViewState": "AgIAAM8AAAAAAAAAAAAAANEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-11T10:48:20.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Prog POE\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Prog POE\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAABOwA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T10:51:11.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Prog POE\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Prog POE\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T10:50:06.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Views\\Home\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "Prog POE\\Views\\Home\\Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Views\\Home\\Dashboard.cshtml",
-              "RelativeToolTip": "Prog POE\\Views\\Home\\Dashboard.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAABOwEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T14:45:06.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Prog POE\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Prog POE\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAwAAAAAAAAAAABOwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-11T11:23:24.45Z",
               "EditorCaption": ""
             },
             {
@@ -218,16 +115,16 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Program.cs",
               "RelativeDocumentMoniker": "Prog POE\\Program.cs",
-              "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Program.cs*",
-              "RelativeToolTip": "Prog POE\\Program.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAswCoAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Program.cs",
+              "RelativeToolTip": "Prog POE\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T10:49:20.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "Notifications.cshtml",
               "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Views\\Home\\Notifications.cshtml",
               "RelativeDocumentMoniker": "Prog POE\\Views\\Home\\Notifications.cshtml",
@@ -235,12 +132,11 @@
               "RelativeToolTip": "Prog POE\\Views\\Home\\Notifications.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T10:49:05.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T10:49:05.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "MyClaims.cshtml",
               "DocumentMoniker": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\Views\\Home\\MyClaims.cshtml",
               "RelativeDocumentMoniker": "Prog POE\\Views\\Home\\MyClaims.cshtml",
@@ -248,8 +144,7 @@
               "RelativeToolTip": "Prog POE\\Views\\Home\\MyClaims.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T10:45:36.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T10:45:36.023Z"
             }
           ]
         }

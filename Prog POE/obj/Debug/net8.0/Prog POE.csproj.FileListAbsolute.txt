@@ -129,3 +129,8 @@ C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\runti
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.csproj.AssemblyReference.cache
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.csproj.Up2Date
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Azure.Data.Tables.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\System.Memory.Data.dll

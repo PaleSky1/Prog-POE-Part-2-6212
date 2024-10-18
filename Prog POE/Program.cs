@@ -10,12 +10,10 @@ namespace Prog_POE
             var configuration = builder.Configuration;
 
             builder.Services.AddControllersWithViews();
-
             builder.Services.AddSingleton(new TableStorageService(configuration.GetConnectionString("AzureStorage")));
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
@@ -35,4 +33,5 @@ namespace Prog_POE
         }
     }
 }
+
 

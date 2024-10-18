@@ -24,11 +24,12 @@ namespace Prog_POE.Services
             }
             return claim;
         }
-        public async Task addClaimsAsync(Claims claims)
+
+        public async Task AddClaimsAsync(Claims claims)
         {
             if (string.IsNullOrEmpty(claims.PartitionKey) || string.IsNullOrEmpty(claims.RowKey))
             {
-                throw new ArgumentException("PartionKey and RowKey must be set");
+                throw new ArgumentException("PartitionKey and RowKey must be set");
             }
             try
             {
@@ -36,7 +37,7 @@ namespace Prog_POE.Services
             }
             catch (RequestFailedException ex)
             {
-                throw new ArgumentException("PartionKey and RowKey must be set", ex);
+                throw new ArgumentException("PartitionKey and RowKey must be set", ex);
             }
         }
     }

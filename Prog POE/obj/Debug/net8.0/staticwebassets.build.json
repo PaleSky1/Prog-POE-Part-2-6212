@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qnunrc/IcrcIpYuQT5gBwPWxLzQ1KINncrg/y5MWpjQ=",
+  "Hash": "hkGkE/NZ827ClxEPCv1Q9p/tbolsyydkc3cRXi66zXM=",
   "Source": "Prog POE",
   "BasePath": "_content/Prog POE",
   "Mode": "Default",
@@ -1345,6 +1345,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\pexels-anete-lusina-4792285 (2).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\wwwroot\\uploads\\pexels-pixabay-357514.jpg",
+      "SourceId": "Prog POE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\wwwroot\\",
+      "BasePath": "_content/Prog POE",
+      "RelativePath": "uploads/pexels-pixabay-357514.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\pexels-pixabay-357514.jpg"
     }
   ]
 }

@@ -277,6 +277,10 @@
       "PackagePath": "staticwebassets\\uploads\\pexels-anete-lusina-4792285 (2).jpg"
     },
     {
+      "Id": "C:\\Users\\Logan\\source\\repos\\Prog-POE-Part 2-6212\\Prog POE\\wwwroot\\uploads\\pexels-pixabay-357514.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pexels-pixabay-357514.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Prog POE.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
