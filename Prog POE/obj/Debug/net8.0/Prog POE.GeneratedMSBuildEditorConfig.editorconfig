@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Logan/source/repos/Prog-POE-Part 2-6212/Prog POE/Views/Claims/AllClaims.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1zXEFsbENsYWltcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Logan/source/repos/Prog-POE-Part 2-6212/Prog POE/Views/Home/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +44,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Logan/source/repos/Prog-POE-Part 2-6212/Prog POE/Views/Home/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Logan/source/repos/Prog-POE-Part 2-6212/Prog POE/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Logan/source/repos/Prog-POE-Part 2-6212/Prog POE/Views/Login/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Logan/source/repos/Prog-POE-Part 2-6212/Prog POE/Views/Shared/Error.cshtml]

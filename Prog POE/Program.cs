@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Session;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Prog_POE.Services;
 
 namespace Prog_POE
@@ -10,7 +12,21 @@ namespace Prog_POE
             var configuration = builder.Configuration;
 
             builder.Services.AddControllersWithViews();
+
             builder.Services.AddSingleton(new TableStorageService(configuration.GetConnectionString("AzureStorage")));
+
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/Login";
+                });
+
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
 
             var app = builder.Build();
 
@@ -22,8 +38,12 @@ namespace Prog_POE
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
             app.UseRouting();
+
+            app.UseAuthentication();
             app.UseAuthorization();
+            app.UseSession();
 
             app.MapControllerRoute(
                 name: "default",
@@ -33,5 +53,3 @@ namespace Prog_POE
         }
     }
 }
-
-

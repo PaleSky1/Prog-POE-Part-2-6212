@@ -1,38 +1,28 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Prog_POE</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Prog_POE.styles.css" asp-append-version="true" />
-</head>
-
 <style>
     .custom-nav-item {
-        margin: 0 15px; 
+        margin: 0 15px;
         list-style: none;
     }
 
     .custom-nav-link {
-        color: white; 
+        color: white;
         text-decoration: none;
-        padding: 10px 15px; 
-        border-radius: 5px; 
-        transition: border-bottom 0.3s ease; 
-        position: relative; 
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: border-bottom 0.3s ease;
+        position: relative;
     }
 
         .custom-nav-link::after {
-            content: ''; 
-            display: block; 
-            width: 0; 
-            height: 2px; 
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
             background: white;
             transition: width 0.3s ease;
             position: absolute;
-            left: 50%; 
+            left: 50%;
             bottom: -5px;
             transform: translateX(-50%);
         }
@@ -43,37 +33,70 @@
 
 </style>
 
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Prog_POE</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Prog_POE.styles.css" asp-append-version="true" />
+</head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm">
             <div class="container-fluid">
-                    <div class="col-1">
+                <div class="col-1">
                     <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Dashboard">
-                            <img src="/Images/E.png" alt="EduClaim logo" style="height: 50px;"> duClaim
-                        </a>
-                    </div>
-                    <div class="col-10">
-                        <div class="navbar-collapse collapse justify-content-center">
-                            <ul class="navbar-nav">
+                        <img src="/Images/E.png" alt="EduClaim logo" style="height: 50px;"> duClaim
+                    </a>
+                </div>
+                <div class="col-10">
+                    <div class="navbar-collapse collapse justify-content-center">
+                        <ul class="navbar-nav">
                             <li class="custom-nav-item">
                                 <a class="custom-nav-link text-white" asp-area="" asp-controller="Home" asp-action="Dashboard">Dashboard</a>
-                                </li>
+                            </li>
                             <li class="custom-nav-item">
                                 <a class="custom-nav-link text-white" asp-area="" asp-controller="Home" asp-action="SubmitClaims">Submit Claim</a>
-                                </li>
+                            </li>
                             <li class="custom-nav-item">
-                                <a class="custom-nav-link text-white" asp-area="" asp-controller="Home" asp-action="MyClaims">My Claims</a>
-                                </li>
+                                <a class="custom-nav-link text-white" asp-area="" asp-controller="Claims" asp-action="AllClaims">My Claims</a>
+                            </li>
                             <li class="custom-nav-item">
                                 <a class="custom-nav-link text-white" asp-area="" asp-controller="Home" asp-action="Notifications">Notifications</a>
-                                </li>
-                            </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                        <div class="col-1 text-end">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <div class="col-1 text-end">
+                                    @if (Context.Session.GetString("Username") != null)
+                                    {
+                                        <div class="d-flex align-items-center">
+                                            <img src="/Images/user.png" alt="Profile" style="height: 40px; border-radius: 50%; margin-right: 10px;" />
+                                            <span class="text-white me-2">@Context.Session.GetString("Username")</span>
+                                            <form asp-action="Logout" asp-controller="Login" method="post" style="display:inline;">
+                                                <button type="submit" class="btn btn-link text-white">Logout</button>
+                                            </form>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <a class="btn btn-link text-white" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+                                    }
+                                </div>
+                            }
+                            else
+                            {
+                                <a class="btn btn-link text-white" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+                            }
                         </div>
-                    </div>
-                    <div class="col-1 text-end">
-                        <img src="/Images/user.png" alt="Profile" style="height: 40px; border-radius: 50%;">
-                    </div>
-            </div>
         </nav>
     </header>
     <div class="container">

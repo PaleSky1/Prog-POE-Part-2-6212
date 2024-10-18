@@ -89,6 +89,14 @@ C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\refint\Prog POE.dll
 C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\Prog POE.pdb
 C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\Prog POE.genruntimeconfig.cache
 C:\Users\Logan\source\repos\_-_\Prog POE\obj\Debug\net8.0\ref\Prog POE.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.csproj.AssemblyReference.cache
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.AssemblyInfoInputs.cache
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.AssemblyInfo.cs
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.csproj.CoreCompileInputs.cache
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.RazorAssemblyInfo.cache
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.RazorAssemblyInfo.cs
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\appsettings.json
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Prog POE.staticwebassets.runtime.json
@@ -97,13 +105,19 @@ C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Prog 
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Prog POE.runtimeconfig.json
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Prog POE.dll
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Prog POE.pdb
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.AssemblyInfoInputs.cache
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.AssemblyInfo.cs
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.csproj.CoreCompileInputs.cache
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.RazorAssemblyInfo.cache
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.RazorAssemblyInfo.cs
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Azure.Data.Tables.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.Azure.Cosmos.Table.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.Azure.DocumentDB.Core.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.OData.Core.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.OData.Edm.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.Spatial.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\runtimes\win7-x64\native\Cosmos.CRTCompat.dll
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\staticwebassets\msbuild.Prog POE.Microsoft.AspNetCore.StaticWebAssets.props
@@ -114,23 +128,9 @@ C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\stati
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\scopedcss\bundle\Prog POE.styles.css
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\scopedcss\projectbundle\Prog POE.bundle.scp.css
+C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.csproj.Up2Date
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.dll
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\refint\Prog POE.dll
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.pdb
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.genruntimeconfig.cache
 C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\ref\Prog POE.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.Azure.Cosmos.Table.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.Azure.DocumentDB.Core.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.OData.Core.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.OData.Edm.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.Spatial.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\runtimes\win7-x64\native\Cosmos.CRTCompat.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.csproj.AssemblyReference.cache
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\obj\Debug\net8.0\Prog POE.csproj.Up2Date
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Azure.Data.Tables.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\System.ClientModel.dll
-C:\Users\Logan\source\repos\Prog-POE-Part 2-6212\Prog POE\bin\Debug\net8.0\System.Memory.Data.dll

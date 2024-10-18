@@ -1,6 +1,7 @@
-﻿@model Prog_POE.Models.Claims
-@{
+﻿@{
     ViewData["Title"] = "Submit Claims";
+    var lectureName = Context.Session.GetString("LectureName");
+    var lectureID = Context.Session.GetString("LectureID");
 }
 
 <style>
@@ -16,6 +17,98 @@
         text-align: center;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         margin-bottom: 20px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+        .submit-card.active {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .submit-card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            transition: opacity 0.3s ease;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .submit-card h3, .submit-card p {
+            color: #fff;
+        }
+
+    .file-list-container {
+        max-height: 100px;
+        overflow-y: auto;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+        .file-list-container ul {
+            list-style-type: none;
+            padding-left: 0;
+            color: #fff;
+        }
+
+            .file-list-container ul li {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 5px;
+            }
+
+                .file-list-container ul li button {
+                    background-color: transparent;
+                    border: none;
+                    color: #fff;
+                    cursor: pointer;
+                }
+
+                    .file-list-container ul li button:hover {
+                        color: red;
+                    }
+
+    .file-input-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    input[type="file"]::file-selector-button {
+        background-color: #007bff;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="file"] {
+        color: transparent;
+    }
+
+    .submit-card .file-input-container {
+        width: 100%;
+    }
+
+    .row.equal-height .col-md-4, .col-md-3 {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .submit-card {
+        flex: 1;
     }
 
     .submit-button {
@@ -39,24 +132,28 @@
     <main role="main" class="pb-3">
         <h1 class="text-white text-center">Submit a New Claim</h1>
 
-        <form asp-action="SubmitClaims" method="post" enctype="multipart/form-data">
+        <form id="submit-claim-form" enctype="multipart/form-data" method="post" asp-action="SubmitClaim" asp-controller="Claims">
             <div class="row equal-height justify-content-center">
                 <div class="col-md-6">
                     <div class="submit-card">
-                        <h3>Lecture Info</h3>
-                        <p><strong>Lecture Name:</strong> <input asp-for="LectureName" class="form-control" /></p>
-                        <p><strong>Lecture ID:</strong> <input asp-for="LectureID" class="form-control" /></p>
+                        <p><strong>Lecture Name:</strong></p>
+                        <input type="text" id="LectureName" name="LectureName" value="@lectureName" class="form-control" required />
+                        <p><strong>Lecture ID:</strong></p>
+                        <input type="text" id="LectureID" name="LectureID" value="@lectureID" class="form-control" required />
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="submit-card">
                         <h3>Work Details</h3>
-                        <input asp-for="HoursWorked" class="form-control" placeholder="Hours Worked" required />
+                        <input type="number" id="HoursWorked" name="HoursWorked" class="form-control" placeholder="Hours Worked" min="0" required />
                         <br />
-                        <input asp-for="HourlyRate" class="form-control" placeholder="Hourly Rate" required />
+                        <div class="input-group">
+                            <span class="input-group-text">R</span>
+                            <input type="number" id="HourlyRate" name="HourlyRate" class="form-control" placeholder="Hourly Rate" min="0" required />
+                        </div>
                         <br />
-                        <textarea asp-for="AdditionalNotes" class="form-control" rows="3" placeholder="Additional Notes"></textarea>
+                        <textarea id="AdditionalNotes" name="AdditionalNotes" class="form-control" rows="3" placeholder="Additional Notes"></textarea>
                     </div>
                 </div>
             </div>
@@ -65,7 +162,16 @@
                 <div class="col-md-6">
                     <div class="submit-card">
                         <h3>Claim Info</h3>
-                        <textarea asp-for="ClaimDescription" class="form-control" rows="3" placeholder="Describe the claim"></textarea>
+                        <textarea id="ClaimDescription" name="ClaimDescription" class="form-control" rows="3" placeholder="Describe the claim"></textarea>
+                        <br />
+                        <input type="text" id="ClaimReference" name="ClaimReference" class="form-control" placeholder="Claim Reference" required />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="submit-card">
+                        <h3>Upload Proof</h3>
+                        <input type="file" id="files" name="files" class="form-control-file" multiple required />
                     </div>
                 </div>
             </div>
@@ -76,3 +182,9 @@
         </form>
     </main>
 </div>
+
+<script>
+    function toggleCard(card) {
+        card.classList.toggle("active");
+    }
+</script>

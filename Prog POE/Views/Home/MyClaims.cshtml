@@ -1,5 +1,57 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<Prog_POE.Models.Claims>
+
 @{
+    ViewData["Title"] = "All Submitted Claims";
+}
+
+@if (Model == null || !Model.Any())
+{
+    <p>No claims found.</p>
+}
+else
+{
+    <div class="text-center" style="color: aliceblue;">
+        <h1>@ViewData["Title"]</h1>
+
+        <p>
+            <a class="btn custom-button" href="@Url.Action("SubmitClaims", "Claims")">
+                <img src="/images/plus-small.png" alt="Add Claim" class="button-imag" />
+                <span>Submit New Claim</span>
+            </a>
+        </p>
+
+        <div class="table-container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Claim Reference</th>
+                        <th>Lecture Name</th>
+                        <th>Hours Worked</th>
+                        <th>Hourly Rate</th>
+                        <th>Additional Notes</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var claim in Model)
+                    {
+                        <tr>
+                            <td>@claim?.ClaimReference ?? "N/A"</td>
+                            <td>@claim?.LectureName ?? "N/A"</td>
+                            <td>@claim?.HoursWorked.ToString() ?? "N/A"</td>
+                            <td>@claim?.HourlyRate.ToString("C") ?? "N/A"</td>
+                            <td>@claim?.AdditionalNotes ?? "N/A"</td>
+                            <td>
+                                <form action="@Url.Action("DeleteClaim", "Claims")" method="post" style="display: inline;">
+                                    <input type="hidden" name="partitionKey" value="@claim?.PartitionKey" />
+                                    <input type="hidden" name="rowKey" value="@claim?.RowKey" />
+                                    <button type="submit" class="delete-button">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
 }
